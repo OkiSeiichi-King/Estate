@@ -19,20 +19,8 @@ const balanceStore = useBalanceStore();
 
 const menu = [
   {
-    name: "Mint",
-    to: { name: "Home" },
-  },
-  {
-    name: "Inventory",
-    to: { name: "Inventory" },
-  },
-  {
-    name: "Items",
+    name: "Shopping mall",
     to: { name: "Items" },
-  },
-  {
-    name: "Upload",
-    to: { name: "Upload" },
   },
 ];
 </script>

@@ -1,6 +1,5 @@
 <script setup>
 import { ref, computed, reactive } from "vue";
-import InventoryVue from "./Inventory.vue";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 import { Dropdown, ListGroup, ListGroupItem } from "flowbite-vue";
@@ -242,7 +241,6 @@ loadItemsBucket();
       >
         <div class="col-span-7 lg:col-span-8 2xl:col-span-9">
           <div class="grid gap-12 mb-5">
-            <div class="font-serif text-2xl font-bold">Items</div>
             <div class="flex justify-end flex-1 gap-2">
               <dropdown text="Filter by">
                 <list-group>

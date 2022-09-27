@@ -29,7 +29,7 @@ const onAccountsChanged = async (accounts) => {
 
   if (!address) {
     userStore.resetUser();
-    router.replace({ name: "Home" });
+    router.replace({ name: "Items" });
     return;
   }
 
