@@ -24,9 +24,11 @@
     "vue-carousel": "^0.18.0",
     "vue-material": "^1.0.0-beta-15",
     "vue-router": "^4.1.2",
+    "vue-tailwind-accordion": "^0.0.13",
     "vue3-carousel": "^0.1.46",
     "vue3-loading-overlay": "^0.0.0",
-    "vue3-material": "^1.0.8"
+    "vue3-material": "^1.0.8",
+    "vue3-rich-accordion": "^0.0.7"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",

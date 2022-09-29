@@ -6,12 +6,22 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
+      path: "/",
+      name: "Home",
+      component: () => import("@/views/Home.vue"),
+      meta: {
+        access: {
+          permissions: ["CHAIN_CORRECT"],
+        },
+      },
+    },
+    {
       path: "/items",
       name: "Items",
       component: () => import("@/views/Items.vue"),
       meta: {
         access: {
-          permissions: ["USER"],
+          permissions: ["CHAIN_CORRECT"],
         },
       },
     },
